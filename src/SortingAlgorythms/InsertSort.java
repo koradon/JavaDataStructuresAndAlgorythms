@@ -6,6 +6,10 @@ import java.util.Arrays;
  * Created by emicsip on 2016-10-25.
  */
 public class InsertSort {
+    /*
+    Good for sorting small amout of data.
+    Used with other sorting algorythms.
+     */
     public static void main(String[] args) {
         int[] data = {6,2,5,9,4,0,1,3,8,2,6,3};
         new InsertSort().sort(data);
