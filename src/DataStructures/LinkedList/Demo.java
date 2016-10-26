@@ -15,5 +15,15 @@ public class Demo {
         list.insertAtHead(16);
 
         System.out.println(list.toString());
+        System.out.println(list.length());
+
+        list.deleteFromHead();
+        System.out.println(list.toString());
+        System.out.println(list.length());
+
+        System.out.println(list.find(2));
+
+        list.insertAtTail(189);
+        System.out.println(list.toString());
     }
 }
